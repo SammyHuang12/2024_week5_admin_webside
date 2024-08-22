@@ -1,0 +1,54 @@
+body{
+  font-family: "Lato", sans-serif;
+  line-height:1.5;
+  // color:--bs-gray-900 !important;
+}
+
+h1,h2,h3,h4,h5,h6,ul{
+    margin-bottom: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+code {
+    font-family: "Roboto Mono", monospace;
+    color: $success;
+    background: $gray-200;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.icon-unfill{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.fz-sm{
+  font-size: 12px;
+}
+
+.px-lg{
+	padding-left: calc($spacer * 2) ;
+	padding-right: calc($spacer * 2) ;
+}

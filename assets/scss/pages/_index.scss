@@ -1,0 +1,24 @@
+.wrap{
+  	width: calc(100% - 296px);
+  	padding: 18px calc($spacer * 2) ;
+
+	.nav-item:hover{
+		background: $gray-400;
+	}
+
+	.list-group-item.active{
+		background: $gray-100;
+		border: 1px solid $gray-400;
+		color: $gray-900;
+	}
+	
+	.form-control{
+		height: 263px;
+	}
+
+
+}
+
+.icon:hover{
+	color:$success;
+}
